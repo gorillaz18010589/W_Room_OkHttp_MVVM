@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">W_Room_OkHttp_MVVM</string>
+    <string name="btn_register">註冊</string>
+    <string name="btn_login">登入</string>
 </resources>

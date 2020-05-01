@@ -92,8 +92,8 @@ public abstract class UserDatabase extends RoomDatabase {
                         try {
                             String body = response.body().string();
                             Log.v(TAG, MSG + "onSuccess(): +/body:" + body);
-                             User user  = gson.fromJson(body,User.class);
-                             userDao.insert(user);
+                            User user = gson.fromJson(body, User.class);
+                            userDao.insert(user);
                         } catch (IOException e) {
                             Log.v(TAG, MSG + "e:" + e.toString());
                         }
