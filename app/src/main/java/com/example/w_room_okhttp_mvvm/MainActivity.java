@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private UserViewModel userViewModel;
     private String TAG = "hank";
     private Button btnRegister,btnLogin;
-    private String url ="https://shop.ljz789.com/index.php?store_id=8";
+    private String url ="";
     private List<GetMoreResult> getMoreResults;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
